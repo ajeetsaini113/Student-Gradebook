@@ -89,7 +89,7 @@ When we view the assignment of a student then it will show a popup in which it g
 
 ### Screenshot 7
 ![Screenshot 7](https://github.com/ajeetsaini113/Student-Gradebook/blob/main/ScreenShots/Screenshot%20(104).png)
-In the assignments tab, it shows all the available assignments, and the same view option is available there, like **screenshot 7**
+In the assignments tab, it shows all the available assignments, and the same view option is available there, like **screenshot 6**
 ## Contributing
 
 Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
