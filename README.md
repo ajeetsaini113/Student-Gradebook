@@ -44,28 +44,31 @@ Here are some screenshots of the application:
 
 ### Screenshot 1
 ![Screenshot 1](https://github.com/ajeetsaini113/Student-Gradebook/blob/main/ScreenShots/Screenshot%20(100).png)
-This is an image file
+This is the Home Page. Here, if you hover on the quick stats or on the student details, then it will show the orange shade on them, which enhances the UX and provides a good Experience.
 
 ### Screenshot 2
-![Screenshot 2](https://github.com/ajeetsaini113/Student-Gradebook/blob/main/ScreenShots/Screenshot%20(101).png)
-This is an image file
+![Screenshot 2](https://github.com/ajeetsaini113/Student-Gradebook/blob/main/ScreenShots/Screenshot%20(105).png)
+Here, it demonstrates the filtering functionality in which it filters according to the grades, and it shows all the students whose grades are greater and equal to the entered value.
 
 ### Screenshot 3
-![Screenshot 3](https://github.com/ajeetsaini113/Student-Gradebook/blob/main/ScreenShots/Screenshot%20(102).png)
-This is an image file
+![Screenshot 3](https://github.com/ajeetsaini113/Student-Gradebook/blob/main/ScreenShots/Screenshot%20(106).png)
+It shows the sorting functionality, and we can sort them by name, by attendance and by grades.
 
 ### Screenshot 4
-![Screenshot 4](https://github.com/ajeetsaini113/Student-Gradebook/blob/main/ScreenShots/Screenshot%20(103).png)
-This is an image file
+![Screenshot 4](https://github.com/ajeetsaini113/Student-Gradebook/blob/main/ScreenShots/Screenshot%20(107).png)
+It shows the searching functionality where we can search by student name.
 
 ### Screenshot 5
-![Screenshot 5](https://github.com/ajeetsaini113/Student-Gradebook/blob/main/ScreenShots/Screenshot%20(104).png)
-This is an image file
+![Screenshot 5](https://github.com/ajeetsaini113/Student-Gradebook/blob/main/ScreenShots/Screenshot%20(109).png)
+It shows the chart view performance of the students.
 
 ### Screenshot 6
-![Screenshot 6](https://github.com/ajeetsaini113/Student-Gradebook/blob/main/ScreenShots/Screenshot%20(105).png)
-This is an image file
+![Screenshot 6](https://github.com/ajeetsaini113/Student-Gradebook/blob/main/ScreenShots/Screenshot%20(110).png)
+When we view the assignment of a student then it will show a popup in which it gives some details about that assignment, and the button will be disabled if the assignment is late.
 
+### Screenshot 7
+![Screenshot 7](https://github.com/ajeetsaini113/Student-Gradebook/blob/main/ScreenShots/Screenshot%20(104).png)
+In the assignments tab, it shows all the available assignments, and the same view option is available there, like **screenshot 7**
 ## Contributing
 
 Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
