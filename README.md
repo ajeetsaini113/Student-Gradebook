@@ -18,6 +18,18 @@ A web-based **Student Gradebook** system that allows users to view student detai
 - 🛠 JavaScript (ES6) – Dynamic data handling
 - 📊 Chart.js – Visualizing student performance
 
+📁 Student-Gradebook/
+```
+├── 📄 index.html                    # Homepage with student list
+├── 📄 student-details.html          # Page to view individual student details
+├── 📄 assignment-submissions.html   # Assignment submissions page
+├── 📄 style.css                     # CSS file for styling
+├── 📄 data.js                       # JavaScript file containing student data
+├── 📄 student-details.js            # Handles student details and charts
+├── 📄 assignment-submissions.js     # Renders assignments dynamically
+├── 📄 README.md                     # Project documentation
+```
+
 ## Installation
 
 To set up the project locally, follow these steps:
