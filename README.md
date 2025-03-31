@@ -32,11 +32,20 @@ To set up the project locally, follow these steps:
     ```
 3. Open the `index.html` file in your web browser to start using the application.
 
-## Usage
+## 📝 Usage Guide
 
-1. Open the application in your web browser.
-2. Use the navigation menu to access different features like adding students, recording grades, and generating reports.
-3. Follow the on-screen instructions to manage student records.
+### Homepage (index.html)
+- Displays a list of students with a View button.
+- Clicking "View" redirects to student-details.html with detailed stats.
+
+### Student Details (student-details.html)
+- Shows the student's name, ID, grades, and attendance.
+- Displays a bar chart of their performance.
+- Lists all assignments with submission status.
+
+### Assignment Submissions (assignment-submissions.html)
+- Displays all student assignment records.
+- Shows submission date, grade, and status.
 
 ## Screenshots
 
@@ -72,10 +81,6 @@ In the assignments tab, it shows all the available assignments, and the same vie
 ## Contributing
 
 Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
 
