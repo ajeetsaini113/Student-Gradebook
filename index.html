@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Gradebook</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- adding links of different pages to navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a class="logo" href="index.html">Student Grade</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="assignment-submissions.html">Assignments</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- here is the quick stats of all the things like total students, Average Grade and total assignments -->
+
+    <div class="container stats">
+        <h5>Quick Stats</h5>
+        <div class="stats-grid">
+            <div class="stat-box">
+                <i class="TotalS"></i>
+                <span id="totalStudents">0</span>
+                <p>Total Students</p>
+            </div>
+            <div class="stat-box">
+                <i class="TotalG"></i>
+                <span id="avgGrade">0</span>
+                <p>Average Grade</p>
+            </div>
+            <div class="stat-box">
+                <i class="TotalA"></i>
+                <span id="totalAssignments">0</span>
+                <p>Total Assignments</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- here we created dic for searching and sorting  -->
+
+    <div class="container search-filter">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search students...">
+            <select id="sortSelect">
+                 <option value="name">Sort by Name</option>  <!--this is to sort the students by name  -->
+                <option value="grade">Sort by Grade</option>   <!--this is to sort the students by Grade  -->
+                <option value="attendance">Sort by Attendance</option>   <!--this is to sort the students by Attendence  -->
+            </select>
+        </div>
+
+        <!-- here we have created a div for filtering -->
+
+<div class="filter-container">
+    <label for="assignmentFilter">Filter by Assignment Completed:</label>
+    <!-- this is used to filter students by the number of assignments they have completed -->
+    <input type="number" id="gradeFilterInput" placeholder="Enter Min. Assignments " />
+</div>
+
+
+    <!-- here we have created a table in which we store the data of the students -->
+    <div class="container">
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Average Grade</th> 
+                        <th>Attendance</th>
+                        <th>Assignments Completed</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="studentTableBody">
+                    <!-- Student's data will be display here  -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>  
+    <!-- this is the chart library of Java Script which is used to make visually appealing  charts -->
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

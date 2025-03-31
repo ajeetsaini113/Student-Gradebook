@@ -1,0 +1,16 @@
+// It customizes WebHint rules for the project and helps identify issues in HTML, CSS, and JavaScript and also improves accessibility, performance, and security.
+
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "no-inline-styles": "off",
+    "axe/forms": [
+      "default",
+      {
+        "select-name": "off"
+      }
+    ]
+  }
+}
